@@ -1,0 +1,1 @@
+function myMove(){var elem=document.getElementById("animate"),pos=0,id=setInterval(function(){350==pos?clearInterval(id):(pos++,elem.style.top=pos+"px",elem.style.left=pos+"px")},5)}
